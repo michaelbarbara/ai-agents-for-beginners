@@ -10,7 +10,7 @@
             <mxPoint x="190" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9U3W19fiR-UsPEiCzLRF-8" value="6. Validate profile and transit against Matrix" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+        <mxCell id="9U3W19fiR-UsPEiCzLRF-8" value="6. Validate profile and transit using Matrix" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
           <mxGeometry x="692" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QLk6kvNGUpyDc85TiMKw-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9U3W19fiR-UsPEiCzLRF-10" target="QLk6kvNGUpyDc85TiMKw-11" edge="1">
@@ -25,21 +25,13 @@
         <mxCell id="QLk6kvNGUpyDc85TiMKw-1" value="1. Custodian receives request" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QLk6kvNGUpyDc85TiMKw-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="QLk6kvNGUpyDc85TiMKw-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="270" y="110" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="QLk6kvNGUpyDc85TiMKw-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qO1o0pPvWQCzSCbj-b3q-15" target="QLk6kvNGUpyDc85TiMKw-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="QLk6kvNGUpyDc85TiMKw-3" value="&lt;div&gt;3. Request contains required info?&lt;/div&gt;&lt;div&gt;(Transit, Role (Murex)/Profils(OSS))&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="310" y="50" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="1o_zKX_MO_ac6jL-dV2j-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QLk6kvNGUpyDc85TiMKw-5" target="1o_zKX_MO_ac6jL-dV2j-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QLk6kvNGUpyDc85TiMKw-5" value="&lt;div&gt;5. User does not already have access or disabled access&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="QLk6kvNGUpyDc85TiMKw-5" value="&lt;div&gt;4. User does not already have access or disabled access&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="682" y="60" width="140" height="100" as="geometry" />
         </mxCell>
         <mxCell id="QLk6kvNGUpyDc85TiMKw-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QLk6kvNGUpyDc85TiMKw-7" target="9U3W19fiR-UsPEiCzLRF-10" edge="1">
@@ -65,7 +57,7 @@
         <mxCell id="qO1o0pPvWQCzSCbj-b3q-4" value="8. Log Activity" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="329" y="530" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qO1o0pPvWQCzSCbj-b3q-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QLk6kvNGUpyDc85TiMKw-5">
+        <mxCell id="qO1o0pPvWQCzSCbj-b3q-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QLk6kvNGUpyDc85TiMKw-5" target="qO1o0pPvWQCzSCbj-b3q-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="576" y="160" as="sourcePoint" />
             <mxPoint x="380" y="240" as="targetPoint" />
@@ -74,19 +66,17 @@
               <mxPoint x="576" y="170" />
               <mxPoint x="576" y="240" />
               <mxPoint x="486" y="240" />
+              <mxPoint x="380" y="240" />
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="1o_zKX_MO_ac6jL-dV2j-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qO1o0pPvWQCzSCbj-b3q-13" target="qO1o0pPvWQCzSCbj-b3q-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qO1o0pPvWQCzSCbj-b3q-13" value="2. Lookup User&#39;s Transit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="305" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qO1o0pPvWQCzSCbj-b3q-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QLk6kvNGUpyDc85TiMKw-3" target="qO1o0pPvWQCzSCbj-b3q-15">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="450" y="110" as="sourcePoint" />
-            <mxPoint x="682" y="110" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qO1o0pPvWQCzSCbj-b3q-15" value="4. Lookup User&#39;s existing access in &quot;Rapport IIQ&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qO1o0pPvWQCzSCbj-b3q-15" value="3. Lookup User&#39;s existing access in &quot;Rapport IIQ&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1o_zKX_MO_ac6jL-dV2j-2" value="Needs Review" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
@@ -104,13 +94,6 @@
         </mxCell>
         <mxCell id="qO1o0pPvWQCzSCbj-b3q-5" value="&lt;div&gt;Reject&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="329" y="374" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1o_zKX_MO_ac6jL-dV2j-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QLk6kvNGUpyDc85TiMKw-3" target="qO1o0pPvWQCzSCbj-b3q-5">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="550" y="490" as="sourcePoint" />
-            <mxPoint x="600" y="440" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="1o_zKX_MO_ac6jL-dV2j-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QLk6kvNGUpyDc85TiMKw-11" target="qO1o0pPvWQCzSCbj-b3q-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -144,7 +127,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1o_zKX_MO_ac6jL-dV2j-12" value="Obtain latest version of Matrix" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1o_zKX_MO_ac6jL-dV2j-12" value="5. Obtain latest version of Matrix" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="692" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1o_zKX_MO_ac6jL-dV2j-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1o_zKX_MO_ac6jL-dV2j-12" target="9U3W19fiR-UsPEiCzLRF-8">
