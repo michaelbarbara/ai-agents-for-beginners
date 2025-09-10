@@ -141,7 +141,7 @@
           <mxGeometry x="250" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GzqG2t4zfH04d9gqWgpI-2" value="&lt;div&gt;No&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="405" y="190" as="geometry">
+          <mxGeometry x="407" y="169" as="geometry">
             <mxPoint x="403" y="-31" as="offset" />
           </mxGeometry>
         </mxCell>
@@ -152,6 +152,21 @@
         </mxCell>
         <mxCell id="GzqG2t4zfH04d9gqWgpI-4" value="Display Result to the Custodian" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="160" y="660" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GzqG2t4zfH04d9gqWgpI-6" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="764" y="450" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzqG2t4zfH04d9gqWgpI-7" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="767" y="647" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzqG2t4zfH04d9gqWgpI-8" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="765" y="182" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
