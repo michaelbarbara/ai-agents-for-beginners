@@ -165,9 +165,6 @@
             <mxPoint x="403" y="-31" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GzqG2t4zfH04d9gqWgpI-11" value="Need workflow for if user has an existing active profile, but needs to modify it" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="40" y="270" width="100" height="100" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
